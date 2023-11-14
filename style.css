@@ -1,0 +1,46 @@
+body {
+    background-image: url(bg.jpg);
+}
+h1 {
+    color: #ff0000; 
+    /* font-size: 2em;  */
+    font-weight: bold;
+    padding: 0.5rem 1rem; 
+    text-align: center;
+}
+div#main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40vh;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+}
+input#textInput {
+    height: 50px;
+    width: 450px;
+    outline: none;
+    color: #ff0000;
+    padding: 0 0.5rem;
+    border-radius: 0.25rem;
+}
+button#btn {
+    background-color: white; 
+    padding: 0.5rem 1rem; 
+    margin-left: 0.25rem;
+    border-radius: 0.25rem; 
+    color: #ff0000; 
+    font-weight: bold;
+    height: 50px;
+    width: 90px; 
+}
+div#data {
+    color: white; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem; 
+    list-style: none;
+    cursor: pointer;
+  }
